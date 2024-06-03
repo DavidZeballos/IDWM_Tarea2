@@ -1,4 +1,3 @@
-// script.js
 function mostrarSeccion(id) {
     // Ocultar todas las secciones
     var secciones = document.querySelectorAll('.seccion');
