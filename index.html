@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="universe.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi" onclick="mostrarSeccion('sobre-mi')">Sobre mí</a></li>
+                <li><a href="#experiencia" onclick="mostrarSeccion('experiencia')">Experiencia</a></li>
+                <li><a href="#proyectos" onclick="mostrarSeccion('proyectos')">Proyectos</a></li>
+                <li><a href="#contacto" onclick="mostrarSeccion('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi" class="seccion">
+            <h1>Sobre mí</h1>
+            <div class="contenido-sobre-mi">
+                <img src="photo.png" alt="Tu nombre">
+                <div class="texto-sobre-mi">
+                    <p>¡Hola! Soy estudiante de ingeniería civil en computación e informática, actualmente en las fases finales de mi carrera. Me considero una persona adaptable y con una gran sed de conocimiento, apasionado por los videojuegos y las experiencias en realidad virtual.</p>
+                    <p>Tengo experiencia en Unity, C#, C++, Java y en frameworks como Laravel, React y Node.js. Aunque mi principal área de interés es el desarrollo de software, también me apasiona el machine learning y he realizado pequeños proyectos en este campo por hobby.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="seccion" style="display:none;">
+            <h2>Experiencia</h2>
+            <p>Fui embajador de Microsoft durante mi enseñanza media, donde aprendí y compartí conocimientos sobre tecnologías emergentes.</p>
+            <p>He administrado servidores de juegos de Steam y gestionado comunidades con cientos de personas, una de ellas siendo yo el dueño, adquiriendo así experiencia en la administración de personas y proyectos.</p>
+            <p>Tengo experiencia decompilando programas y juegos, y desarrollando pequeños programas de hacking por diversión. Esto incluye modificar juegos para realizar trucos y funcionalidades avanzadas, tanto del lado del cliente como del servidor.</p>
+            <p>Mi experiencia en desarrollo de software incluye trabajar con diversas tecnologías y frameworks, creando soluciones completas y eficientes. He trabajado en proyectos tanto individuales como en equipo, adaptándome a diferentes roles según las necesidades del proyecto.</p>
+        </section>
+
+        <section id="proyectos" class="seccion" style="display:none;">
+            <h2>Proyectos destacados</h2>
+            <div class="proyecto">
+                <h3>Desarrollo Fullstack</h3>
+                <p>He desarrollado pequeños proyectos como fullstack, utilizando frameworks como Laravel, React, y Node.js.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyectos en Machine Learning</h3>
+                <p>Aunque mi área principal es el desarrollo de software, me apasiona el machine learning y he realizado pequeños proyectos en esta área por hobby.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Desarrollo de Juegos en Unity</h3>
+                <p>He desarrollado algunos juegos menores en Unity por diversión, además de tener experiencia en la modificación de modelos 3D y rigging en Blender.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Administración de Servidores de Juegos</h3>
+                <p>He administrado servidores de juegos comunitarios en Steam, gestionando comunidades y optimizando la experiencia de usuario.</p>
+            </div>
+        </section>
+        <section id="contacto" class="seccion" style="display:none;">
+            <h2>Contacto</h2>
+            <p>Email: <a href="davidmzs@hotmail.com">davidmzs@hotmail.com</a></p>
+            <p>Discord: <a href="https://discordapp.com/users/739040266727719023" target="_blank">Discord</a></p>
+            <p>GitHub: <a href="https://github.com/DavidZeballos" target="_blank">GitHub</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 David Zeballos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
